@@ -1,0 +1,83 @@
+header{
+    background-image: url("/img/banner-leiturinhas.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+    height: 500px;
+
+}
+
+h2 , h4, h6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.legenda{
+    color: #FFF;
+	background-color: rgba(0, 0, 0, .3);
+	padding: 20px;
+	width: 70%;
+	border-radius: 5px; 
+	position: absolute;
+	top: 35%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+}
+
+.titulo-mais-lidas{
+    color: #A62E7C; 
+    border-left: 4px solid #A62E7C;
+}
+
+.card-elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+#imgCard{
+    width: 200px;
+    height: 230px;
+
+}
+
+.titulo-top-nacional{
+    color: #1E4DD9; 
+    border-left: 4px solid #1E4DD9;
+}
+
+.titulo-top-internacional{
+    color: #03A65A; 
+    border-left: 4px solid #03A65A;
+}
+
+.carousel-posicao-imagem{
+    object-fit: cover;
+    height: 350px;
+}
+
+.legenda-carrossel{
+    color: #FFF;
+	padding: 20px;
+	width: 50%;
+	border-radius: 5px; 
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.bg-legenda-nacional{
+	background-color: rgba(30, 77, 217, .5);
+}
+
+.bg-legenda-internacional{
+    background-color: rgba(3, 166, 90, .5);
+}
