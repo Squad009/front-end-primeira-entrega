@@ -1,6 +1,7 @@
 body {
   background-image: linear-gradient(#1e4dd9, #a62e7c);
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 main {
