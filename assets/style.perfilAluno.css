@@ -1,0 +1,17 @@
+.titulo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.atividade {
+  display: flex;
+}
+
+.ultimas-leituras {
+  display: flex;
+}
+
+.cardLivros img {
+  width: 15em;
+  height: 20em;
+}
