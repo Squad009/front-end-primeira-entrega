@@ -1,0 +1,23 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family:'Quicksand', 'sans-serif';
+}
+
+.title_font {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+header, footer {
+    background-color: #a62e7cf1;
+}
+
+.bg_app_primary {
+    background-color: #03A65A;
+}
+
+.bg_app_secondary {
+    background-color: #1E4DD9;
+}
