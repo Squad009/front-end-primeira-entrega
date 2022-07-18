@@ -1,5 +1,8 @@
 @import url("style.css");
 
+body {
+    overflow-x: hidden;
+}
 
 .bg-nova-historia {
     height: 200px;
