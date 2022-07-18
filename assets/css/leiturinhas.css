@@ -1,4 +1,4 @@
-header{
+.banner{
     background-image: url("/img/banner-leiturinhas.jpg");
     background-size: cover;
     background-position: 50% 70%;
@@ -72,6 +72,7 @@ h2 , h4, h6{
 
 .legenda-carrossel{
     color: #FFF;
+    font-size: 80%;
 	padding: 1.25rem;
 	width: 50%;
 	border-radius: 5px; 
@@ -109,6 +110,7 @@ h2 , h4, h6{
 
     .legenda {
         margin-top: 1rem;
+        width: 100%;
     }
-    
+
 }
