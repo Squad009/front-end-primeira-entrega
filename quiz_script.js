@@ -126,7 +126,7 @@ submitBtn.addEventListener('click', () => {
            quiz.innerHTML = `
            <h2>Você acertou ${score}/${quizData.length} corretamente</h2>
 
-           <button onclick="location.reload()">Reiniciar</button>
+           <button  id="submit" onclick="location.reload()">Reiniciar</button>
            `
        }
     }
