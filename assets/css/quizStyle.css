@@ -83,21 +83,21 @@ h2{
 }
 
 
-button{
+#submit{
   background-color: #03A65A;
   color: #fff;
   border: none;
-  display: block;
+  display: inline-block;
   width: 100%;
   cursor: pointer;
   font-size: 1.1rem;
   font-family: inherit;
   padding: 0.8rem;
 }
-button:hover{
+#submit:hover{
   background-color: #03A65A;
 }
-button:focus{
+#submit:focus{
   outline: none;
   background-color: #44b927;
 }
