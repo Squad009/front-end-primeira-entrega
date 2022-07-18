@@ -7,38 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Principal</title>
     <link rel="stylesheet" type="text/css" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/perfil_professor.css">
 </head>
 
 <body>
-    <header class="p-2 text-white">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/inicio.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                    <img src="assets/icons/log-temp-projeto.png" class="bi me-2" width="50" height="40" role="img"
-                        aria-label="LogoApp"></img>
-                </a>
+  <header class="p-2 text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/inicio.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="assets/icons/log-temp-projeto.png" class="bi me-2" width="50" height="40" role="img"
+                  aria-label="LogoApp"></img>
+          </a>
 
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="home.html" class="nav-link px-2 text-dark">Home</a></li>
-                    <li><a href="leiturinhas.html" class="nav-link px-2 text-white">Leiturinhas</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Quizzes</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Sobre nós</a></li>
-                </ul>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="inicio.html" class="nav-link px-2 text-dark">Home</a></li>
+              <li><a href="leiturinhas.html" class="nav-link px-2 text-white">Leiturinhas</a></li>
+              <li><a href="quizzes.html" class="nav-link px-2 text-white">Quizzes</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Sobre nós</a></li>
+          </ul>
 
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                    <input type="search" class="form-control form-control-dark text-white bg-light"
-                        placeholder="Buscar..." aria-label="Buscar">
-                </form>
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-white bg-light"
+                  placeholder="Buscar..." aria-label="Buscar">
+          </form>
 
-                <div class="text-end">
-                    <button type="button" class="btn btn-outline-light me-2 b">Entrar</button>
-                    <button type="button" class="btn btn-warning">Registrar-se</button>
-                </div>
-            </div>
-        </div>
-    </header>
+          <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2 b">Entrar</button>
+              <button type="button" class="btn btn-warning">Registrar-se</button>
+          </div>
+      </div>
+  </div>  
+   
+  </header>
 
     <main>
 
@@ -70,28 +74,33 @@
             <a href="#" class="text-link" style="float: right; margin-right: 2rem; color: blueviolet;">Mais...</a>
             <div class="bg-light py-5">
                 <div class="row justify-content-sm-around">
-                    <div class="card p-2" style="width: 18rem;">
-                        <img src="img/pdf.png" class="card-img-top" alt="...">
+                    <div class="card p-2 cardLivros img" style="width: 18rem;">
+                      <div class="imgCardProjeto">
+                        <img src="img/amoras.jpg"  class="card-img-top" alt="...">
+                      </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title title_font">Análise Literária - Amoras</h5>
+                          <p class="card-text">Projeto desenvolvido para a discussão da obra Amoras, de Emicida...</p>
+                          <a href="#" class="btn btn_quero">Abrir</a>
                         </div>
                       </div>
-                      <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                      <div class="card p-2 cardLivros" style="width: 18rem;">
+                        <div class="imgCardProjeto">
+                          <img src="img/coraline.jpg" class="card-img-top" alt="...">
+                        </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title title_font">Produção Literária - Coraline</h5>
+                          <p class="card-text">Projeto desenvolvido para a discussão e produção de conteúdo de ...</p>
+                          <a href="#" class="btn btn_quero">Abrir</a>
                         </div>
                       </div>
-                      <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                      <div class="card p-2 cardLivros" style="width: 18rem;">
+                        <div class="imgCardProjeto">
+                          <img src="img/pequeno-principe.jpg" class="card-img-top" alt="..."></div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title title_font">Roda de Leitura - O Pequeno Príncipe</h5>
+                          <p class="card-text">Projeto desenvolvido com o intuito de discutir os temas trazidos...</p>
+                          <a href="#" class="btn btn_quero">Abrir</a>
                         </div>
                       </div>
                    
@@ -113,13 +122,13 @@
                                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                       <div class="carousel-item active">
-                                        <img src="img/perfil-de-avatar.webp" class="d-block w-100" alt="...">
+                                        <img src="img/alicenopaisdasmaravilhas.jpg" id="imgCard" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="img/perfil-de-avatar.webp" class="d-block w-100" alt="...">
+                                        <img src="img/meupedelaranjalima.JPG" id="imgCard" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="img/perfil-de-avatar.webp" class="d-block w-100" alt="...">
+                                        <img src="img/harry-potter-e-a-pedra-filosofal.jpg" id="imgCard" class="d-block w-100" alt="...">
                                       </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -144,13 +153,13 @@
                                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                       <div class="carousel-item active">
-                                        <img src="img/perfil-de-avatar.webp" class="d-block w-100" alt="...">
+                                        <img src="img/extraordinario.jpg" id="imgCard" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="img/perfil-de-avatar.webp" class="d-block w-100" alt="...">
+                                        <img src="img/magicodeoz.jpg" id="imgCard" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="img/perfil-de-avatar.webp" class="d-block w-100" alt="...">
+                                        <img src="img/meninotinhamedodeerrar.jpg" id="imgCard" class="d-block w-100" alt="...">
                                       </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -175,13 +184,13 @@
                                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                       <div class="carousel-item active">
-                                        <img src="img/perfil-de-avatar.webp" class="d-block w-100" alt="...">
+                                        <img src="img/diariodeumbanana.jpg" id="imgCard" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="img/perfil-de-avatar.webp" class="d-block w-100" alt="...">
+                                        <img src="img/daminhajanela.jpg" id="imgCard" class="d-block w-100" alt="...">
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="img/perfil-de-avatar.webp" class="d-block w-100" alt="...">
+                                        <img src="img/colchaderetalhos.jpg" id="imgCard" class="d-block w-100" alt="...">
                                       </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

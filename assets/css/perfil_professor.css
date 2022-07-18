@@ -1,23 +1,7 @@
-@import url("style.css");
-body {
-    font-family: 'Quicksand', sans-serif;
-  }
-  
-  h1, h2, h3 {
-    font-family: 'Berkshire Swash', cursive;
-  }
-
-  .bg-nova-historia {
-    height: 200px;
-    margin: 2rem 0;
-    background: url("/img/bg-nova-historia-inicio.webp") no-repeat;
-    background-size: contain;
+.row {
+  --bs-gutter-x: 0rem;
 }
-
-
-
-
-  
+ 
   .info-professor {
     border: 1px solid #000;
     margin-bottom: 2rem;
@@ -30,26 +14,16 @@ body {
     margin: 10px;
   }
   
-  .titulo {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .atividade {
-    display: flex;
-    align-items: center;
-  }
-  
-  .atividade img {
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .ultimas-leituras {
-    display: flex;
-  }
+  .imgCardProjeto{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+
+   #imgCard{
+    width: 250px;
+    height: 250px;
+   }
   
   .card {
     width: 18rem;
@@ -62,11 +36,6 @@ body {
     height: 20em;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-  }
-  
-  .cardLivros p {
-    font-weight: bold;
-    text-align: center;
   }
 
   .btn_prof {
