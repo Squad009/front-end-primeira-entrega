@@ -29,7 +29,7 @@ header, .footer_app {
     border: #1E4DD9 1px solid;
     color: aliceblue;
     font-size: 1.25rem;
-    padding: .5rem;
+    padding: .6rem;
     margin: .5rem;
 }
 
@@ -39,7 +39,7 @@ header, .footer_app {
     border: #03A65A 1px solid;
     color: aliceblue;
     font-size: 1.25rem;
-    padding: .5rem;
+    padding: .6rem;
     margin: .5rem;
 }
 
@@ -54,7 +54,7 @@ header, .footer_app {
 .icon_before::before {
     content: url("/assets/icons/log-temp-projeto.png");
     vertical-align: middle;
-    margin-right: 2rem;
+    margin-right: 3rem;
     
 }
 
