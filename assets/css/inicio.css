@@ -7,7 +7,7 @@ body {
 .animacao-bt {
     position: relative;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-70%);
     animation-name: bt-move-direita;
     animation: bt-move-direita 6s;
 }
@@ -20,7 +20,7 @@ body {
     }
     to {
         left: 50%;
-        transform: translate(-50%);
+        transform: translate(-70%);
       
     }
 }
