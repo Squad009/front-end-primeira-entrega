@@ -1,16 +1,8 @@
 @import url("style.css");
 
 body {
-    overflow-x: hidden;
+    overflow-x: initial;
 }
-
-.bg-nova-historia {
-    height: 200px;
-    margin: 2rem 0;
-    background: url("/img/bg-nova-historia-inicio.webp") no-repeat;
-    background-size: contain;
-}
-
 
 .animacao-bt {
     position: relative;
