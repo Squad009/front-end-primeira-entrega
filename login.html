@@ -30,7 +30,7 @@
 
       <!--  Botão entrar  -->  
       <div class="button">
-        <a href="inicio.html"><button type="submit" class="btn bg-success text-white mt-2" id="botao">Entrar</button></a>
+        <a href="inicio.html"><button type="button" class="btn bg-success text-white mt-2" id="botao">Entrar</button></a>
       </div>
 
       <!--  Criar conta - Abre Modal  -->  
@@ -45,28 +45,32 @@
 
             <!-- Cabeçalho do modal -->
             <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
+              <h5 class="modal-title text_app_secondary title_font icon_before" id="modalRegistrarLabel">Criar Conta</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
 
             <!-- Corpo do modal -->
             <div class="modal-body">
-              <h2>Como voce deseja se cadastrar?</h2>
+              <h2 class="icon_before">Como voce deseja se cadastrar?</h2>
 
               <!-- Botões do modal-->
-              <a href="cadastro_aluno.html"> <button type="button" class="btn btn-success text-white mt-2" >Aluno</button> </a>
-              <a href="cadastro_professor.html"> <button type="button" class="btn btn-success text-white mt-2" >Professor</button> </a>
+              <a href="cadastro_aluno.html"> <button type="button" class="btn button_app_primary text-white mt-2" >Estudante</button> </a>
+              <a href="cadastro_professor.html"> <button type="button" class="btn button_app_secondary text-white mt-2">Professor</button> </a>
 
             </div>
 
           </div>
         </div>
       </div>
-  
+      <a class="text-link mt-3" href="#" style="display: block;">Esqueci minha senha</a>
     </main>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+
+<script src="/docs/5.0/assets/js/docs.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   </body>

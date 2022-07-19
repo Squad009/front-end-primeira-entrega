@@ -8,11 +8,13 @@
     <title>Principal</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Quicksand&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Quicksand&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/inicio.css">
 </head>
 
@@ -38,8 +40,10 @@
                 </form>
 
                 <div class="text-end">
-                    <button type="button" class="btn btn-outline-light me-2 b">Entrar</button>
-                    <button type="button" class="btn btn-warning">Registrar-se</button>
+                    <a type="button" href="/login.html" class="btn btn-outline-light me-2 b" role="button">Entrar</a>
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                        data-bs-target="#modalRegistrar">Registrar-se</button>
+
                 </div>
             </div>
         </div>
@@ -125,7 +129,7 @@
             <h2 class="title_font ms-3 mt-5 text_app_secondary">Conteúdo de professores mais recentes...</h2>
             <hr class="border-primary border-3 opacity-75">
             <a href="#" class="text-link" style="float: right; margin-right: 2rem;">Mais...</a>
-            <div class="bg-light py-5 p-0 m-0">
+            <div class="bg-light py-5">
                 <div class="container overflow-hidden">
                     <div class="row justify-content-sm-around">
 
@@ -229,6 +233,24 @@
                         </svg></a></li>
             </ul>
     </footer>
+    <div class="modal fade" id="modalRegistrar" tabindex="-1" aria-labelledby="modalRegistrarLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text_app_secondary title_font icon_before" id="modalRegistrarLabel">Criar Conta</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Como voce deseja se cadastrar?</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="/cadastro_aluno.html" type="button" class="btn button_app_primary" role="button">Estudante</a>
+                    <a href="/cadastro_professor.html" type="button" class="btn button_app_secondary" role="button">Professor</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </body>
