@@ -1,0 +1,6 @@
+@import url("style.css");
+
+.fundo_criativo {
+    background: url("../../img/fundo-criativo-criar-conto.webp");
+    background-size: contain;
+}
