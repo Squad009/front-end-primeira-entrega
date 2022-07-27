@@ -35,7 +35,7 @@
                 </ul>
 
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                    <input type="search" class="form-control form-control-dark text-white bg-light"
+                    <input type="search" class="form-control form-control-dark text-dark bg-light"
                         placeholder="Buscar..." aria-label="Buscar">
                 </form>
 
@@ -51,24 +51,50 @@
 
     <main>
         <section>
-            <div class="fundo_criativo">
-                <form class="container p-5">
-                    <div>
-                        <img class="visualizacao-imagem">
-                        <label for="formImgLg" class="form-label text-dark">Imagem</label>
-                        <input id="formImgLg" type="file" accept="image/*">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Título do Conto</label>
-                        <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Escreva sua história aqui</label>
-                        <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1"
-                            rows="3"></textarea>
-                    </div>
+            <img class="card-img imagem_info" src="./img/imagem-criativa-info.jpeg" height="300px" width="100%"
+                alt="Desenho de mulher usando pincel">
+            <div class="p-3 bg-light bg-opacity-10 border border-light border-start-0 rounded-end ">
+                <h2 class="fs-1 text-center">Mergulhe em um mundo onde só você impôe os limites</h2>
             </div>
+        </section>
+        <section>
+            <div class="containter-fluid p-3 mb-5" style="background-image: url('../img/fundo-criativo-criar-conto.webp');">
+                <div class="fundo_criativo">
+                    <form class="container p-5" method="post" action="mailto:bilbos_cg@hotmail.com"
+                        enctype="text/plain">
+                        <div class="selecao_imagem">
+                            <div>
+                                <img class="visualizacao_imagem">
+                            </div>
+                            <div>
+                                <input type="button" class="button_file  btn button_app_secondary"
+                                    value="Adicionar capa">
+                            </div>
+                            <input id="formImgLg" type="file" accept="image/*">
+                        </div>
+                        <div class="mb-3">
+                            <label for="titulo_conto" class="form-label rotulo_campo">Título do conto</label>
+                            <input type="text" class="form-control form-control-lg"
+                                id="titulo_conto">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label rotulo_campo">Escreva sua
+                                história
+                                aqui</label>
+                            <textarea class="form-control form-control-lg "
+                                id="exampleFormControlTextarea1" rows="10" rows="3"></textarea>
+                        </div>
+                        <select class="form-select form-select-lg mb-3 "
+                            aria-label=".form-select-lg example">
+                            <option selected>Escolha a categoria</option>
+                            <option value="1">Fantasia</option>
+                            <option value="2">Aventura</option>
+                            <option value="3">Ação</option>
+                        </select>
+                        <input class="button_app_primary button_salvar" type="submit" value="Publicar história"
+                            style="float: right;">
+                    </form>
+                </div>
             </div>
         </section>
     </main>
@@ -126,16 +152,18 @@
 
     <script>
         const $ = document.querySelector.bind(document);
-        const visualizacaoImagem = $(".visualizacao-imagem");
+        const visualizacaoImagem = $(".visualizacao_imagem");
         const inputFile = $("#formImgLg");
+        const buttonFile = $(".button_file");
 
+        buttonFile.onclick = () => inputFile.click();
         inputFile.onchange = e => {
-           let arquivoUpload = e.target.files.item(0);
-           const fileReader = new FileReader();
+            let arquivoUpload = e.target.files.item(0);
+            const fileReader = new FileReader();
 
-           fileReader.onload = e => visualizacaoImagem.src = e.target.result;
+            fileReader.onload = e => visualizacaoImagem.src = e.target.result;
 
-           fileReader.readAsDataURL(arquivoUpload);
+            fileReader.readAsDataURL(arquivoUpload);
         };
 
     </script>
