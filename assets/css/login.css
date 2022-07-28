@@ -6,6 +6,7 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+
 main{
     margin: 20px 0;
     color: #f2622e;
@@ -35,9 +36,12 @@ main{
     width: 90%;
 }
 
-h2{
+h1{
     text-align: center;
+    font-size: x-large;
     color: #f2622e; 
+    font-family:'Berkshire Swash';
+
 }
 
 button{
