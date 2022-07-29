@@ -18,7 +18,6 @@
 }
 
 .button_file {
-    justify-content: center;
     white-space: normal;
 }
 
@@ -51,6 +50,7 @@ input[type='file'] {
 .imagem_info {
     border-left: 8px solid #888888;
     width: 80%;
-    margin: 5% 10%;
+    height: 250px;
+    margin: 0 10%;
     border-radius: 5px;
 }
