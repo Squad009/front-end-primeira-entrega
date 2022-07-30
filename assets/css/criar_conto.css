@@ -2,10 +2,12 @@
 
 .fundo_criativo {
     background-color: transparent;
-    margin: 5rem;
+    margin: auto;
+    width: 80%;
     border-radius: 5px;
     border: 1px solid;
     box-shadow: 10px 20px #FFF;
+    
     overflow: auto;
     padding: 2rem 0;
 }
