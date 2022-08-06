@@ -2,19 +2,18 @@
 body{
     background-image: linear-gradient( #1e4dd9 0%, #a62e7c 100%);
     background-repeat: no-repeat;
-    height: 100vh;
     font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height: 100vh;
 }
 
-
 main{
-    margin: 20px 0;
-    color: #f2622e;
+    margin: 20px;
     text-align: center;
 }
 
 .form-label{
-    background-color: #fff;
+    background-color: rgb(238, 240, 247, 0.8);
     width: 35%;
     min-width: 400px;
     display: block;
@@ -22,45 +21,32 @@ main{
     margin: auto;
     border-radius: 5px;
     box-shadow: 3px 3px 10px #333;
-    padding: 30px;
+    padding: 2%;
 }
      
 .form-group{  
-    color: rgb(14, 14, 14);
-    margin-bottom: 15px;
+    color: #000000;
+    margin-bottom: 10px;
     text-align: left;
+    justify-content: center;   
+    }
+
+.link{
+    margin-top: 1px;
+    margin-bottom: 1px;  
 }
 
-.modal-footer{
-    align-items: center;
-    width: 90%;
-}
-
-h1{
+h3{
     text-align: center;
     font-size: x-large;
-    color: #f2622e; 
+    color: #000000; 
     font-family:'Berkshire Swash';
-
+    padding: 1px;
 }
 
 button{
-    width: 60%;
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
-.modal-header{
-    width: 20%;
-}
-
-form {
-    width: 80%;
-  }
-
-  .center {
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center;
-}
-.btn-div {
-    margin-top: 20px;
-}
