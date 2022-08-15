@@ -18,3 +18,11 @@ a{
 a:hover{
     color: black;
 }
+
+
+@media screen and (max-width: 524px) {
+    .contorno{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+  }
