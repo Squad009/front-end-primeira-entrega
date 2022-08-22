@@ -2,10 +2,12 @@
 
 .fundo_criativo {
     background-color: transparent;
-    margin: 5rem;
+    margin: auto;
+    width: 80%;
     border-radius: 5px;
     border: 1px solid;
     box-shadow: 10px 20px #FFF;
+    
     overflow: auto;
     padding: 2rem 0;
 }
@@ -18,7 +20,6 @@
 }
 
 .button_file {
-    justify-content: center;
     white-space: normal;
 }
 
@@ -51,6 +52,7 @@ input[type='file'] {
 .imagem_info {
     border-left: 8px solid #888888;
     width: 80%;
-    margin: 5% 10%;
+    height: 250px;
+    margin: 0 10%;
     border-radius: 5px;
 }

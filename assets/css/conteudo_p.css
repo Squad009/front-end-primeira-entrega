@@ -1,0 +1,55 @@
+@import url("style.css");
+
+#botoes{
+    width: 500px;
+    min-width: 30%;
+    border-style: solid;
+    border-color: #1E4DD9;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#texto{
+    width: 90%;
+    height: 270px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#titulo{
+    width: 90%;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: orangered;
+    border-radius: 10px;
+}
+
+#negrito, #italico{
+    border-style: solid;
+    border-color: #1E4DD9;
+}
+
+#maiuscula, #minuscula, #maimin{
+    border-style: solid;
+    border-color: #1E4DD9;
+}
+
+#esquerda, #direita, #centro{
+    border-style: solid;
+    border-color: #1E4DD9;
+}
+
+
+#apagarTexto {
+    border-style: solid;
+    border-color: #1E4DD9;
+}
+
+#enviar{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    justify-content: right;
+}
