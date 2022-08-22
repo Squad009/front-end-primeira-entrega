@@ -4,85 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/conteudo_p.css">
     <title>Cria conteúdo</title>
 </head>
 <body>
-   
   <header class="p-2 text-white">
-    <div class="container-fluid">
-      <div class="d-flex flex-wrap align-items-center  justify-content-lg-start">
-        <a href="/inicio.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-          <img src="assets/icons/logo_200px.png" class="bi me-2" width="50" height="40" role="img"
-            aria-label="LogoApp"></img>
-        </a>
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/inicio.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <img src="assets/icons/Logo_200px.png" class="bi me-2" width="50" height="40" role="img"
+                    aria-label="LogoApp"></img>
+            </a>
 
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="inicio.html" class="nav-link px-2 text-white">Home</a></li>
-          <li><a href="leiturinhas.html" class="nav-link px-2 text-white">Leiturinhas</a></li>
-          <li><a href="quizzes.html" class="nav-link px-2 text-dark">Quizzes</a></li>
-          <li><a href="sobre.html" class="nav-link px-2 text-white">Conheça a iniciativa</a></li>
-        </ul>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="inicio.html" class="nav-link px-2 text-white">Home</a></li>
+                <li><a href="leiturinhas.html" class="nav-link px-2 text-white">Leiturinhas</a></li>
+                <li><a href="quizzes.html" class="nav-link px-2 text-white">Quizzes</a></li>
+                <li><a href="sobre.html" class="nav-link px-2 text-white">Conheça a iniciativa</a></li>
+            </ul>
 
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 justify-content-end" role="search">
-          <input type="search" class="form-control form-control-dark text-white bg-light" placeholder="Buscar..."
-            aria-label="Buscar">
-        </form>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <input type="search" class="form-control form-control-dark text-white bg-light"
+                    placeholder="Buscar..." aria-label="Buscar">
+            </form>
 
-        <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2 b">Entrar</button>
-          <button type="button" class="btn btn-warning" data-bs-toggle="modal"
-          data-bs-target="#modalRegistrar">Registrar-se</button>
+            <div class="text-end">
+                <a type="button" href="/login.html" class="btn btn-outline-light me-2 b" role="button">Entrar</a>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                    data-bs-target="#modalRegistrar">Registrar-se</button>
+
+            </div>
         </div>
-      </div>
     </div>
-  </header>
-  
+</header>
+<main>
   <div class="container d-flex justify-content-center" >
       <h1>Começe a criar!</h1></div>
   <!--  Edicao de texto  -->
-  <div class="container d-flex justify-content-center " id="botoes">
-      <div class="btn" id="fontes">
+  <div class=" container d-flex  align-items-center justify-content-center " id="botoes">
+       <div class="btn " id="fontes">
           <button class="btn" id="negrito"><i class="bi bi-type-bold"></i></button>
           <button class="btn" id="italico"><i class="bi bi-type-italic"></i></button>
+       </div>
+       <div class="btn  " id="alinhamento">
+          <button class="btn" id="esquerda"><i class="bi bi-text-left"></i></button>
+          <button class="btn" id="centro"><i class="bi bi-text-center"></i></button>
+          <button class="btn" id="direita"><i class="bi bi-text-right"></i></button>
+       </div>
+       <div class="btn " id="transforma">
+          <button class="btn" id="maiuscula">A</i></button>
+          <button class="btn" id="minuscula">a</i></button>
+          <button class="btn" id="maimin">Aa</button>
+       </div>
+       <div class="btn d-flex  align-items-center justify-content-center" id="apagar">
+          <button class="btn" id="apagarTexto"><i class="bi bi-eraser-fill"></i></button>
       </div>
-      <div class="btn" id="alinhamento">
-        <button class="btn" id="esquerda"><i class="bi bi-text-left"></i></button>
-        <button class="btn" id="centro"><i class="bi bi-text-center"></i></button>
-        <button class="btn" id="direita"><i class="bi bi-text-right"></i></button>
-      </div>
-      <div class="btn" id="transforma">
-        <button class="btn" id="maiuscula">A</i></button>
-        <button class="btn" id="minuscula">a</i></button>
-        <button class="btn" id="maimin">Aa</button>
-      </div>
-      <div class="btn" id="apagar">
-        <button class="btn" id="apagarTexto"><i class="bi bi-eraser-fill"></i></button>
-      </div>
-     </div>
+  </div>
   <!--  criar conteudo  -->
-      <div class="container d-flex  flex-column bd-highlight mb-1" id="caixaDeTexto">
+  <div class="container d-flex  flex-column bd-highlight mb-1" id="caixaDeTexto">
         <div class="p-2 bd-highlight">
             <textarea id="titulo" placeholder="Seu título aqui..."></textarea>
         </div>
-        
         <div class="p-2 bd-highlight">
             <textarea id="texto" placeholder="Seu texto aqui..."></textarea>
         </div>
-
-        <div class="p-2 bd-highlight ">
-            <button class="btn-success" id="enviar">Enviar</button>
+        <div>
+          <a href="" button class="btn button_app_primary mr-3"> Enviar </a>
         </div>
-      </div>
   </div>
-  
- 
-  <footer>
-    <div style="height: 100px;">
-      <img src="img/acabamento-footer.webp" height="100%" width="100%" alt="desenho de acabamento do rodapé">
-    </div>
+</main>
+  <!--  rodape -->
+<footer>
+   <div style="height: 100px;">
+     <img src="img/acabamento-footer.webp" height="100%" width="100%" alt="desenho de acabamento do rodapé">
+   </div>
     <div class="container-fluid d-flex flex-wrap justify-content-between align-items-center py-3 footer_app">
       <div class="acabamento_footer"></div>
       <div class="col-md-6 d-flex align-items-center">
@@ -111,25 +110,25 @@
       </ul>
   </footer>
 
-   <!--  modal -->
-  <div class="modal fade" id="modalRegistrar" tabindex="-1" aria-labelledby="modalRegistrarLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title text_app_secondary title_font icon_before" id="modalRegistrarLabel">Criar Conta</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></i></button>
-                </div>
-                <div class="modal-body">
-                    <p>Como voce deseja se cadastrar?</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="/cadastro_aluno.html" type="button" class="btn button_app_primary" role="button">Estudante</a>
-                    <a href="/cadastro_professor.html" type="button" class="btn button_app_secondary" role="button">Professor</a>
-                </div>
-            </div>
-        </div>
-    </div>
+ <!--  modal -->
+ <div class="modal fade" id="modalRegistrar" tabindex="-1" aria-labelledby="modalRegistrarLabel"
+   aria-hidden="true">
+   <div class="modal-dialog">
+       <div class="modal-content">
+           <div class="modal-header">
+               <h5 class="modal-title text_app_secondary title_font icon_before" id="modalRegistrarLabel">Criar Conta</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+               <p>Como voce deseja se cadastrar?</p>
+           </div>
+           <div class="modal-footer">
+               <a href="/cadastro_aluno.html" type="button" class="btn button_app_primary " role="button">Estudante</a>
+               <a href="/cadastro_professor.html" type="button" class="btn button_app_secondary" role="button">Professor</a>
+           </div>
+       </div>
+   </div>
+</div>
     <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 
 </body>
