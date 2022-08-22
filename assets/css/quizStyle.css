@@ -4,11 +4,18 @@ body{
   line-height: 0.5rem;
 }
 
-
-   
   
+ #cor_fundo{
+  background-image: linear-gradient(315deg, #F2D22E 25%, #F2622E 75%);
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  margin-top: 2rem;
+
+ } 
 
 .quiz_container{
+  
+  justify-content: center;
   background-color: #ffffff;
   
   border-radius: 10px;
@@ -64,7 +71,7 @@ h2{
   background-color: #03A65A;
   color: #fff;
   border: none;
-  display: inline-block;
+  border-radius: 0px 0px 10px 10px;
   width: 100%;
   cursor: pointer;
   font-size: 1.1rem;
@@ -79,55 +86,6 @@ h2{
   background-color: #44b927;
 }
 
-/* estilo pagina escolher quiz*/
-
-main {
-  height: 70vh;
-}
-.ini_container{
-  background-image: linear-gradient(315deg, #cecbcb 25%, #03A65A 75%);
-  margin-top: 1rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-  border-radius: 10px;
-
-}
-.op{
-  border-radius: 20px;
-  border-style: none;
-  background-image: linear-gradient(315deg, #F2D22E 25%, #F2622E 75%);
-  width: 100%;
-  height: 2rem;
-  }
- 
- 
-  a {
-    text-decoration: none;
-    color: white;
-  }
-
-  a:hover {
-    color: white;
-    
-  }
-  
-  .op-list{
-    list-style-type: none;
-    padding: 0;
-  }
-  .op-list li{
-    font-size: 1rem;
-    margin: 1rem 0;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bolder;
-  }
-  .op-list li label{
-    cursor: pointer;
-  }
-  
-
-/* fim - estilo pagina escolher quiz*/
 
 
 @media screen and (max-width: 992px) {
@@ -170,40 +128,4 @@ main {
  
 }
 
-
-/* estilo pagina escolher quiz*/
-
-@media screen and (max-width: 991px) {
-  h2 {
-      font-size: small;
-      
-  }
-  .title-quiz {
-    font-size: medium;
-  }
-  .title-quiz {
-    font-size: medium;
-  }
-  .quiz-header {
-      padding: 0.2rem
-  }
-    
-    
-    .op-list{
-      list-style-type: none;
-      padding: 0;
-    }
-    .op-list li{
-      font-size: 1rem;
-      margin: 1rem 0;
-      font-family: 'Quicksand', sans-serif;
-      font-weight: bolder;
-    }
-    .op-list li label{
-      cursor: pointer;
-    }
- 
-}
-
-/* estilo pagina escolher quiz*/
 
