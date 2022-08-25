@@ -61,6 +61,12 @@
     background-image: linear-gradient(315deg, #F2D22E 25%, #F2622E 75%);
     color: #1E4DD9;
 }
+
+.btn_editar{
+  width: 100%;
+  background-color: white;
+  color: darkgray;
+}
   a {
     text-decoration: none;
     color: white;
