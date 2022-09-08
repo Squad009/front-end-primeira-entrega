@@ -64,6 +64,12 @@
   width: 18rem;
   margin-right: 15px;
   margin-bottom: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
 }
 
 .cardLivros img {
@@ -76,4 +82,11 @@
 .cardLivros p {
   font-weight: bold;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .ultimas-leituras {
+    flex-direction: column;
+    align-items: center;
+  }
 }
