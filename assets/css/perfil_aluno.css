@@ -49,6 +49,10 @@
   align-items: center;
 }
 
+.atividade:hover {
+  cursor: pointer;
+}
+
 .atividade img {
   width: 100px;
   height: 100px;
@@ -88,5 +92,8 @@
   .ultimas-leituras {
     flex-direction: column;
     align-items: center;
+  }
+  .atividade div p{
+    display: none;
   }
 }
