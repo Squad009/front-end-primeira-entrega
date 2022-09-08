@@ -1,4 +1,6 @@
 
+/* Informações do Aluno */
+
 .info-aluno {
   border: 1px solid #000;
   margin-bottom: 2rem;
@@ -32,10 +34,15 @@
   
 }
 
+/* Títulos da Página*/
+
 .titulo {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #ccc;
 }
+
+/* Atividades */
 
 .atividade {
   display: flex;
