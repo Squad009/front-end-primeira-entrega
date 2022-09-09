@@ -1,31 +1,56 @@
-body {
-  font-family: 'Quicksand', sans-serif;
-}
 
-h1, h2, h3 {
-  font-family: 'Berkshire Swash', cursive;
-}
+/* Informações do Aluno */
 
 .info-aluno {
   border: 1px solid #000;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 2rem;
+  display: grid;
 }
 
 .info-item {
   margin: 10px;
 }
 
+.btn_aluno {
+  margin: 0.5rem;
+  border-style: none;
+  border-radius: 5px;
+  background-color:#03A65A;
+  width: 100%;
+  height: 3rem;
+}
+
+.btn_aluno:hover {
+  background-color:#44b927;
+}
+
+.btn_aluno a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn_aluno a:hover {
+  color: white;
+  
+}
+
+/* Títulos da Página*/
+
 .titulo {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #ccc;
 }
+
+/* Atividades */
 
 .atividade {
   display: flex;
   align-items: center;
+}
+
+.atividade:hover {
+  cursor: pointer;
 }
 
 .atividade img {
@@ -43,6 +68,12 @@ h1, h2, h3 {
   width: 18rem;
   margin-right: 15px;
   margin-bottom: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
 }
 
 .cardLivros img {
@@ -55,4 +86,14 @@ h1, h2, h3 {
 .cardLivros p {
   font-weight: bold;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .ultimas-leituras {
+    flex-direction: column;
+    align-items: center;
+  }
+  .atividade div p{
+    display: none;
+  }
 }
